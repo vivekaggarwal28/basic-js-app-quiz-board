@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+
+section {
+    background: url(assets/gb.jpg) no-repeat;
+    width: 660px;
+    font: 15px 'Gloria Hallelujah';
+    color: rgba(255,255,255,0.7);
+    text-shadow: 0 0 4px rgba(255,255,255,0.6);
+    height: 380px;
+    padding: 25px 50px;
+    position: relative;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    margin: 0;
+}
+#buttons{
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+    font-size: 25px;
+}
+#buttons div{
+    padding: 0px 15px;
+    cursor: pointer;
+    border: 2px solid;
+    margin: 10px;
+    align-content: center;
+    justify-content: center;
+}
+.hidden{
+    display: none !important;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
